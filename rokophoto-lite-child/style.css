@@ -1,0 +1,118 @@
+/*
+ Theme Name:   Rokophoto Lite Child
+ Description:  Rokophoto Child Theme
+ Author:       Cris Duran
+ Author URI:   http://crisduran.se
+ Template:     rokophoto-lite
+ Version:      0.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Text Domain:  rokophoto-lite-child
+*/
+
+
+
+h5 {
+    font-family: "Open Sans", "Trebuchet MS", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased !important;
+color: #a19568;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    text-transform: uppercase;
+}
+a:link, a:hover, a:active, a:visited  {
+    color: #a19568;
+
+
+}
+
+
+.navbar-default .nav  li a:hover, .navbar-default .nav li a:focus {
+    outline: 0;
+    color: #a19568;
+}
+
+
+
+.vision-border:hover > h2, .vision-border:hover {
+    border-color: #a19568;
+    color: #a19568;
+    -webkit-transition: all 1s;
+    transition: all 1s;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: #a19568;
+        border-top-color: rgb(161, 149, 104);
+        border-right-color: rgb(161, 149, 104);
+        border-bottom-color: rgb(161, 149, 104);
+        border-left-color: rgb(161, 149, 104);
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: #a19568;
+}
+
+
+.navbar-default .navbar-toggle {
+    border-color: #a19568;
+    background-color: transparent;
+}
+
+
+#bsocials span.follow:hover {
+    border: 1px solid #a19568;
+    color: #a19568;
+    -webkit-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+#bsocials a:hover {
+    color: #a19568;
+}
+
+a:hover, a:focus, a:active, a.active {
+    color: #a19568;
+}
+
+#footer-nav {
+    color: #161616;
+    font-family: "Open Sans", "Trebuchet MS", Arial, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+
+
+#footer-nav a {
+    color: #161616;
+}
+
+.imgContainers {
+     float: left;
+     width: 30%;
+     margin: 1% 1% 1% 1%;
+}
+
+.imgClear {
+     clear: both;
+     margin-bottom: 2%;
+     margin-top: 5%;
+}
+
+@media screen and (max-width: 600px) {
+      .imgContainers {
+               float: none;
+               width: 98%;
+               margin: 0 auto 3% auto;
+
+  }
+             }
+#blog > div > div > h2 > a {
+	text-transform: lowercase;
+}
